@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main()  
+{
+    int 3myAge = 18;    //这里命名正确吗？
+    printf("恭喜修改正确");
+    return 0;    
+}

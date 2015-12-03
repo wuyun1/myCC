@@ -1,0 +1,6 @@
+#include <stdio.h>
+                   /*这里输入我们的主函数哦*/
+{
+    printf("C程序中一定是从我开始的");
+	return 0;
+}

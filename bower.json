@@ -1,0 +1,42 @@
+{
+  "name": "cc",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.1",
+    "codemirror": "CodeMirror#~5.9.0"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    },
+    "codemirror":{
+      "main": [
+        "lib/codemirror.css",
+        "addon/display/fullscreen.css",
+        "addon/fold/foldgutter.css",
+        "addon/dialog/dialog.css",
+        "theme/midnight.css",
+        "lib/codemirror.js",
+        "addon/search/searchcursor.js",
+        "addon/dialog/dialog.js",
+        "addon/edit/matchbrackets.js",
+        "addon/edit/closebrackets.js",
+        "addon/comment/comment.js",
+        "addon/wrap/hardwrap.js",
+        "addon/fold/foldcode.js",
+        "addon/fold/brace-fold.js",
+        "mode/clike/clike.js",
+        "keymap/sublime.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.4.2",
+    "mocha": "~2.3.4"
+  }
+}

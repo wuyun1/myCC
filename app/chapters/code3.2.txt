@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int x,y;
+    x = 10;
+    y = -3;
+    printf("x+y=%d\n",     );  
+    printf("x-y=%d\n",     );
+    printf("x*y=%d\n",     );
+    printf("x/y=%d\n",     );
+    printf("x%y=%d\n",     );  
+    return 0;    
+}

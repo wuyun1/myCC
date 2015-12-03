@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int x=5;
+    int y=5;
+    int z=10;
+    printf("x是否大于y:%d\n",             ); //x是否大于y
+    printf("y是否大于等于x:%d\n",         ); //y是否大于等于x
+    printf("y是否小于z:%d\n",             ); //y是否小于z
+    printf("z是否小于等于x:%d\n",          ); //z是否小于等于x
+    printf("z是否等于x+y:%d\n",            ); //z是否等于x+y
+    return 0;
+}

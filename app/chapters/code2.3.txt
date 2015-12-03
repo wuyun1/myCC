@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    int age = 18;
+	float height = 1.85;
+	char unit = 'm';
+	printf("小明今年？岁\n", age);
+	printf("小明身高？？\n", height, unit);
+	printf("小明现在在湖南农业大学IT技术"); 
+	return 0;
+}

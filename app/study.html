@@ -1,0 +1,127 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>C语程</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="/bower_components/codemirror/lib/codemirror.css" />
+  <link rel="stylesheet" href="/bower_components/codemirror/addon/display/fullscreen.css" />
+  <link rel="stylesheet" href="/bower_components/codemirror/addon/fold/foldgutter.css" />
+  <link rel="stylesheet" href="/bower_components/codemirror/addon/dialog/dialog.css" />
+  <link rel="stylesheet" href="/bower_components/codemirror/theme/midnight.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+  <!-- build:css styles/study.css -->
+  <link rel="stylesheet" href="styles/study.css">
+  <!-- endbuild -->
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+<body>
+<div id="container">
+  <div id="mask"></div>
+  <div id="sitebar">
+    <a id="btn_solder" class="btn btn_solder_close" href="javascript:void(0);">目录</a>
+    <h1>目录</h1>
+
+    <ol  id="list_chap">
+        <li>
+          <h4>第一章 C语言简介</h4>
+          <ol>
+            <li>初始C语言</li>
+          </ol>
+        </li>
+        <li>
+          <h4>第二章 变量</h4>
+          <ol>
+            <li>什么是变量</li>
+            <li class="active">变量类型</li>
+          </ol>
+        </li>
+        <li>
+          <h4>第三章 数组与指针</h4>
+          <ol>
+            <li>认识数组</li>
+            <li>多维数组</li>
+            <li>指针的妙用</li>
+          </ol>
+        </li>
+      </ol>
+
+
+  </div>
+
+  <div id="div_left">
+    <iframe src="/chapters/default.html" id="iframe_main" name="content" frameborder="0" style="width:100%;height: 100%; overflow: auto;"></iframe>
+  </div>
+  <div id="div_right">
+    <div style="background:rgba(15, 15, 15, 0.76)" id = "div_edit">
+      <textarea id="codEdeit"></textarea>
+      <div class="row" >
+        <div class="col-lg-6 col-lg-offset-1"><a id="btn_run" class="btn btn-lg btn-block btn-primary" href="javascript:void(0);">Run!</a></div>
+      </div>
+    </div>
+    <pre id="div_ouput" style="text-align: left; background: #000;color:#fff;width:100%;overflow-x:auto; overflow-y: auto"></pre>
+  </div>
+</div>
+
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+  ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/codemirror/lib/codemirror.js"></script>
+<script src="/bower_components/codemirror/addon/search/searchcursor.js"></script>
+<script src="/bower_components/codemirror/addon/dialog/dialog.js"></script>
+<script src="/bower_components/codemirror/addon/edit/matchbrackets.js"></script>
+<script src="/bower_components/codemirror/addon/edit/closebrackets.js"></script>
+<script src="/bower_components/codemirror/addon/comment/comment.js"></script>
+<script src="/bower_components/codemirror/addon/wrap/hardwrap.js"></script>
+<script src="/bower_components/codemirror/addon/fold/foldcode.js"></script>
+<script src="/bower_components/codemirror/addon/fold/brace-fold.js"></script>
+<script src="/bower_components/codemirror/mode/clike/clike.js"></script>
+<script src="/bower_components/codemirror/keymap/sublime.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js scripts/plugins.js -->
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/study.js -->
+<script src="scripts/study.js"></script>
+<!-- endbuild -->
+</body>
+</html>
